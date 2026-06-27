@@ -2581,7 +2581,7 @@ input[type="color"] {
     background: var(--background-tertiary);
 }
 
-.is-phone .menu .suggestion-group .suggestion-item:not(.is-label), .is-phone .menu-item:not(.is-label),  {
+.is-phone .menu .suggestion-group .suggestion-item:not(.is-label), .is-phone .menu-item:not(.is-label)  {
     background: var(--background-primary);
 }
 
