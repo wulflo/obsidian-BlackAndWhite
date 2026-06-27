@@ -468,8 +468,8 @@ body {
     --background-secondary-alt: hsl(0, 0%, 20%);
     --background-tertiary: hsl(0, 0%, 28%);
     --background-table: hsl(0, 0%, 12%);
-    --background-button: hsl(0, 0%, 20%);
-    --background-button-alt: hsl(0, 0%, 15%);
+    --background-button: hsl(0, 0%, 35%);
+    --background-button-alt: hsl(0, 0%, 22%);
     --background-modifier-hover: rgba(255, 255, 255, 0.05);
     --background-modifier-active-hover: rgba(255, 255, 255, 0.10);
     --background-search: var(--background-primary-alt);
