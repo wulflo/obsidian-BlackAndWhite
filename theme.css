@@ -1194,7 +1194,6 @@ body:not(.is-phone) .cm-comment, .cm-meta {
     border-radius: 4px;
 }
 
-
 /* ==========================================================================
    5. CALLOUTS Y BLOQUES MULTICOLUMNA (CALLOUTS & supercallout BLOCKS)
    ========================================================================== */
@@ -2104,7 +2103,6 @@ body {
     --red: hsla(var(--interactive-accent-hsl), 0.9);
 }
 
-
 /* ==========================================================================
    10. BUSQUEDA Y SUGERENCIAS (SEARCH & SUGGESTIONS)
    ========================================================================== */
@@ -2332,7 +2330,6 @@ button.mod-cta {
     background: var(--background-primary-alt);
     opacity: 1;
 }
-
 
 /* ==========================================================================
    13. PLUGINS Y GRÁFICOS (PLUGINS & GRAPHS)
@@ -2573,3 +2570,30 @@ svg.svg-icon {
 /* ==========================================================================
    15. VERSIÓN MÓVIL (MOBILE & PHONE)
    ========================================================================== */
+
+input[type="color"] {
+    -webkit-appearance: none;
+    width: auto;
+    height: auto;
+}
+
+.is-phone .menu {
+    background: var(--background-tertiary);
+}
+
+.is-phone .menu .suggestion-group .suggestion-item:not(.is-label), .is-phone .menu-item:not(.is-label),  {
+    background: var(--background-primary);
+}
+
+.is-phone .workspace-drawer-tab-options-list {
+    background: var(--background-secondary);
+}
+
+.workspace-drawer-tab-options .workspace-tab-header-inner {
+    margin-top: 4px;
+}
+
+.workspace-drawer-tab-select .workspace-tab-header-inner, .workspace-drawer-tab-options .workspace-tab-header-inner, .workspace-drawer-tab-options:not(.has-swipe) .workspace-tab-header.is-active .workspace-tab-header-inner {
+    border-radius: 8px;
+    background: var(--background-primary);
+}
