@@ -1,4 +1,4 @@
-# 📺 B&W: your screen, your peace
+# 📺 Black and White: your screen, your peace
 > A theme that speaks the language of monochrome. Enchanting whites and deep charcoal shades fill your screen with timeless elegance.
 
 # ❓ How to use
