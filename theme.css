@@ -777,7 +777,7 @@ body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-p
 .nav-file-title,
 .nav-folder-title {
     color: var(--text-important);
-    font-size: 1em;
+    font-size: 0.93em;
 }
 
 .tree-item-inner {
