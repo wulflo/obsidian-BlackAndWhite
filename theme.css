@@ -460,7 +460,7 @@ body {
     --vault-name-color: var(--text-normal);
     --workspace-background-translucent: rgba(var(--mono-rgb-0), 0.6);
     --accent-h: 0;
-    --accent-s: 0%;
+    --accent-s: 0% !important;
     --accent-l: 74%;
     --background-primary: hsl(0, 0%, 8%);
     --background-primary-alt: hsl(0, 0%, 10%);
@@ -2014,10 +2014,9 @@ a.tag {
     text-shadow: 0px 0px 100px var(--background-button);
     border-left: 4px solid var(--background-button);
     padding-left: 8px;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
     padding-top: 3px;
     border-radius: 4px;
-    margin-bottom: 14px !important
 }
 
 .metadata-properties-heading {
