@@ -885,7 +885,7 @@ body .workspace-tab-header .workspace-tab-header-inner-title {
 
 .workspace-tab-header-tab-list .clickable-icon,
 .workspace-tab-header-new-tab .clickable-icon {
-    color: var(--text-accent);
+    color: var(--icon-color);
 }
 
 .workspace-split.mod-horizontal>*>.workspace-leaf-resize-handle {
