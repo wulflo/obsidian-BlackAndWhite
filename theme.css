@@ -182,7 +182,7 @@ body {
     --icon-m-stroke-width: 1.75px;
     --icon-l-stroke-width: 1.75px;
     --icon-xl-stroke-width: 1.25px;
-    --icon-color: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 25%));
+    --icon-color: inherit;
     --icon-color-hover: var(--text-muted);
     --icon-color-active: var(--text-accent);
     --icon-color-focused: var(--text-normal);
@@ -567,7 +567,7 @@ body {
     --heading-spacing: calc(var(--p-spacing) * 2.5);
     --hr-color: var(--background-modifier-border);
     --hr-thickness: 2px;
-    --icon-color: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) - 50%));
+    --icon-color: inherit;
     --icon-color-hover: var(--text-muted);
     --icon-color-active: var(--icon-color);
     --icon-color-focused: var(--text-normal);
