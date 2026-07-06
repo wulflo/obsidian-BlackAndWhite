@@ -182,7 +182,7 @@ body {
     --icon-m-stroke-width: 1.75px;
     --icon-l-stroke-width: 1.75px;
     --icon-xl-stroke-width: 1.25px;
-    --icon-color: inherit;
+    --icon-color: hsl(calc(var(--accent-h) + 20), calc(var(--accent-s) - 30%), calc(var(--accent-l) + 10%));
     --icon-color-hover: var(--text-muted);
     --icon-color-active: var(--text-accent);
     --icon-color-focused: var(--text-normal);
@@ -567,7 +567,7 @@ body {
     --heading-spacing: calc(var(--p-spacing) * 2.5);
     --hr-color: var(--background-modifier-border);
     --hr-thickness: 2px;
-    --icon-color: inherit;
+    --icon-color: hsl(calc(var(--accent-h) + 20), calc(var(--accent-s) - 30%), calc(var(--accent-l) - 45%));
     --icon-color-hover: var(--text-muted);
     --icon-color-active: var(--icon-color);
     --icon-color-focused: var(--text-normal);
@@ -2522,6 +2522,10 @@ g>g>path {
 
 .calendar tbody {
     background: var(--background-primary);
+}
+
+.command-enabled.svelte-nzpfin svg.svg-icon {
+    color: var(--background-button);
 }
 
 /* ==========================================================================
