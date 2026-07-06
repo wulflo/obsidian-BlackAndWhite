@@ -808,16 +808,6 @@ body:not(.is-grabbing) .tree-item-self.is-active:hover, .tree-item-self.is-activ
     margin-left: 5px;
 }
 
-.nav-buttons-container,
-.view-actions,
-.workspace-tab-header-inner,
-.side-dock-settings,
-.side-dock-actions {
-    display: flex;
-    justify-content: center;
-    color: var(--text-accent);
-}
-
 .workspace-tab-header-inner {
     display: flex;
     justify-content: center;
