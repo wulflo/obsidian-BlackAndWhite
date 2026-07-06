@@ -185,7 +185,7 @@ body {
     --icon-color: hsl(calc(var(--accent-h) + 20), calc(var(--accent-s) - 30%), calc(var(--accent-l) + 10%));
     --icon-color-hover: var(--text-muted);
     --icon-color-active: var(--text-accent);
-    --icon-color-focused: var(--text-normal);
+    --icon-color-focused: var(--icon-color);
     --icon-opacity: 0.85;
     --icon-opacity-hover: 1;
     --icon-opacity-active: 1;
@@ -570,7 +570,7 @@ body {
     --icon-color: hsl(calc(var(--accent-h) + 20), calc(var(--accent-s) - 30%), calc(var(--accent-l) - 45%));
     --icon-color-hover: var(--text-muted);
     --icon-color-active: var(--icon-color);
-    --icon-color-focused: var(--text-normal);
+    --icon-color-focused: var(--icon-color);
     --icon-opacity: 0.85;
     --icon-opacity-hover: 1;
     --icon-opacity-active: 1;
