@@ -175,7 +175,7 @@ body {
     --icon-xl-stroke-width: 1.25px;
     --icon-color: hsl(calc(var(--accent-h) + 20), calc(var(--accent-s) - 30%), calc(var(--accent-l) + 10%));
     --icon-color-hover: var(--text-muted);
-    --icon-color-active: var(--text-accent);
+    --icon-color-active: var(--icon-color);
     --icon-color-focused: var(--icon-color);
     --icon-opacity: 0.85;
     --icon-opacity-hover: 1;
