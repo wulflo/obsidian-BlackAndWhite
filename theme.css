@@ -457,7 +457,7 @@ body {
     --background-primary-alt: hsl(0, 0%, 10%);
     --background-secondary: hsl(0, 0%, 15%);
     --background-secondary-alt: hsl(0, 0%, 20%);
-    --background-tertiary: hsl(0, 0%, 28%);
+    --background-tertiary: hsl(0, 0%, 10%);
     --background-table: hsl(0, 0%, 12%);
     --background-button: hsl(0, 0%, 35%);
     --background-button-alt: hsl(0, 0%, 22%);
