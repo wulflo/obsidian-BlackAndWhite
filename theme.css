@@ -1258,7 +1258,7 @@ body:not(.is-phone) .cm-comment, .cm-meta {
 .callout-icon {
     padding-top: 6px;
     padding-bottom: 6px;
-    font-size: 1.05rem;
+    font-size: 1rem;
     filter: brightness(1.2) saturate(0.5) hue-rotate(10deg);
 }
 
@@ -1286,12 +1286,24 @@ body:not(.is-phone) .cm-comment, .cm-meta {
 }
 
 .theme-dark .callout {
-    filter: brightness(1.3) saturate(0.7) hue-rotate(10deg);
+    filter: 
+        brightness(2) 
+        contrast(3) 
+        saturate(0.3) 
+        hue-rotate(100deg) 
+        grayscale(60%) 
+        opacity(100%) 
+        blur(0px) 
 }
-
 .theme-light .callout {
-    filter: brightness(0.6) saturate(1.4) hue-rotate(0deg);
-    background: rgba(var(--callout-color), 0.15);
+    filter: 
+        brightness(0.7) 
+        contrast(3) 
+        saturate(0.2) 
+        hue-rotate(45deg) 
+        grayscale(0%) 
+        opacity(100%) 
+        blur(0px) 
 }
 
 .callout-content {
@@ -1308,281 +1320,6 @@ body:not(.is-phone) .cm-comment, .cm-meta {
 .theme-light .callout-content {
     padding-right: 15px;
     padding-left: 15px;
-}
-
-.callout[data-callout="anki"] {
-    --callout-color: 100, 255, 255;
-    --callout-icon: help-circle;
-}
-
-.theme-light .callout[data-callout="anki"] {
-    --callout-color: 0, 0, 0;
-}
-
-.callout[data-callout="note"] {
-    --callout-color: 255, 130, 255;
-}
-
-.theme-light .callout[data-callout="note"] {
-    --callout-color: 20, 120, 200;
-}
-
-.callout[data-callout="abstract"] {
-    --callout-color: 74, 176, 255;
-}
-
-.theme-light .callout[data-callout="abstract"] {
-    --callout-color: 50, 100, 140;
-}
-
-.callout[data-callout="summary"] {
-    --callout-color: 210, 255, 94;
-}
-
-.theme-light .callout[data-callout="summary"] {
-    --callout-color: 79, 227, 11;
-}
-
-.callout[data-callout="tldr"] {
-    --callout-color: 184, 148, 255;
-    --callout-icon: clock-4;
-}
-
-.theme-light .callout[data-callout="tldr"] {
-    --callout-color: 184, 50, 200;
-    --callout-icon: clock-4;
-}
-
-.callout[data-callout="info"] {
-    --callout-color: 74, 176, 255;
-}
-
-.theme-light .callout[data-callout="info"] {
-    --callout-color: 10, 220, 0;
-}
-
-.callout[data-callout="todo"] {
-    --callout-color: 170, 230, 89;
-}
-
-.theme-light .callout[data-callout="todo"] {
-    --callout-color: 40, 150, 15;
-}
-
-.callout[data-callout="tip"] {
-    --callout-color: 244, 138, 74;
-}
-
-.theme-light .callout[data-callout="tip"] {
-    --callout-color: 210, 100, 100;
-}
-
-.callout[data-callout="hint"] {
-    --callout-color: 244, 138, 74;
-}
-
-.theme-light .callout[data-callout="hint"] {
-    --callout-color: 244, 0, 74;
-}
-
-.callout[data-callout="important"] {
-    --callout-color: 255, 109, 109;
-}
-
-.theme-light .callout[data-callout="important"] {
-    --callout-color: 200, 50, 109;
-}
-
-.callout[data-callout="success"] {
-    --callout-color: 77, 224, 185;
-}
-
-.theme-light .callout[data-callout="success"] {
-    --callout-color: 137, 68, 198;
-}
-
-.callout[data-callout="check"] {
-    --callout-color: 77, 224, 185;
-}
-
-.theme-light .callout[data-callout="check"] {
-    --callout-color: 5, 100, 5;
-}
-
-.callout[data-callout="done"] {
-    --callout-color: 77, 224, 185;
-}
-
-.theme-light .callout[data-callout="done"] {
-    --callout-color: 0, 0, 100;
-}
-
-.callout[data-callout="question"] {
-    --callout-color: 255, 128, 183;
-}
-
-.theme-light .callout[data-callout="question"] {
-    --callout-color: 255, 0, 183;
-}
-
-.callout[data-callout="help"] {
-    --callout-color: 255, 128, 183;
-}
-
-.theme-light .callout[data-callout="help"] {
-    --callout-color: 200, 50, 150;
-}
-
-.callout[data-callout="faq"] {
-    --callout-color: 255, 128, 183;
-}
-
-.theme-light .callout[data-callout="faq"] {
-    --callout-color: 200, 50, 183;
-}
-
-.callout[data-callout="warning"] {
-    --callout-color: 244, 138, 74;
-}
-
-.callout[data-callout="caution"] {
-    --callout-color: 244, 138, 74;
-}
-
-.theme-light .callout[data-callout="caution"] {
-    --callout-color: 200, 100, 74;
-}
-
-.callout[data-callout="attention"] {
-    --callout-color: 244, 138, 74;
-}
-
-.theme-light .callout[data-callout="attention"] {
-    --callout-color: 200, 100, 74;
-}
-
-.callout[data-callout="fail"],
-.callout[data-callout="failure"] {
-    --callout-color: 255, 74, 74;
-}
-
-.callout[data-callout="missing"] {
-    --callout-color: 255, 74, 74;
-}
-
-.callout[data-callout="danger"] {
-    --callout-color: 255, 74, 74;
-}
-
-.callout[data-callout="error"] {
-    --callout-color: 255, 74, 74;
-}
-
-.callout[data-callout="bug"] {
-    --callout-color: 252, 95, 142;
-}
-
-.theme-light .callout[data-callout="bug"] {
-    --callout-color: 255, 0, 0;
-}
-
-.callout[data-callout="example"] {
-    --callout-color: 184, 148, 255;
-}
-
-.theme-light .callout[data-callout="example"] {
-    --callout-color: 72, 122, 33;
-}
-
-.callout[data-callout="quote"] {
-    --callout-color: 184, 148, 255;
-}
-
-.theme-light .callout[data-callout="quote"] {
-    --callout-color: 0, 100, 255;
-}
-
-.callout[data-callout="cite"] {
-    --callout-color: 159, 167, 188;
-}
-
-.theme-light .callout[data-callout="cite"] {
-    --callout-color: 0, 130, 188;
-}
-
-.callout[data-callout="pro"] {
-    --callout-color: 65, 201, 108;
-    --callout-icon: thumbs-up;
-}
-
-.theme-light .callout[data-callout="pro"] {
-    --callout-color: 50, 100, 150;
-    --callout-icon: thumbs-up;
-}
-
-.callout[data-callout="con"] {
-    --callout-color: 255, 84, 84;
-    --callout-icon: thumbs-down;
-}
-
-.theme-light .callout[data-callout="con"] {
-    --callout-color: 0, 84, 84;
-    --callout-icon: thumbs-down;
-}
-
-.callout[data-callout="idea"] {
-    --callout-color: 238, 255, 139;
-    --callout-icon: lightbulb;
-}
-
-.theme-light .callout[data-callout="idea"] {
-    --callout-color: 50, 150, 50;
-    --callout-icon: lightbulb;
-}
-
-.callout[data-callout="related"] {
-    --callout-color: 184, 148, 255;
-    --callout-icon: shuffle;
-}
-
-.theme-light .callout[data-callout="related"] {
-    --callout-color: 0, 120, 255;
-    --callout-icon: shuffle;
-}
-
-.callout[data-callout="naturales"] {
-    --callout-icon: microscope;
-    --callout-color: 99, 180, 102;
-}
-
-.callout[data-callout="exactas"] {
-    --callout-icon: calculator;
-    --callout-color: 74, 202, 234;
-}
-
-.callout[data-callout="humanidades"] {
-    --callout-icon: landmark;
-    --callout-color: 234, 183, 74;
-}
-
-.callout[data-callout="naturales"],
-.callout[data-callout="exactas"],
-.callout[data-callout="humanidades"] {
-    filter: brightness(0.9);
-    height: fit-content;
-}
-
-.callout[data-callout="author"] {
-    --callout-icon: library-big;
-    --callout-color: 102, 10, 50;
-}
-
-.callout[data-callout="author"]:hover {
-    --callout-color: 234, 74, 115;
-}
-
-.theme-dark .callout[data-callout="author"] {
-    --callout-color: 255, 240, 100;
 }
 
 body {
@@ -2173,8 +1910,8 @@ input.prompt-input {
 }
 
 .search-input-container input {
-    background: var(--background-secondary);
-    border: 1px solid var(--text-accent)
+    background: var(--background-primary);
+    border: none;
 }
 
 .suggestion-container.mod-search-suggestion {
