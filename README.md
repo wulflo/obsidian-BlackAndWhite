@@ -3,11 +3,11 @@
 
 # ❓ How to use
 
-1. Colorful Highlights
+1. Highlights
 	1. Make your text stand out with vibrant, rich ==highlights== designed to draw your eyes instantly to key terms.
-2. Flashcard Glow Effect
+2. Flashcard Effect
 	1. Turn any paragraph into an active recall prompt. 
-		1. Adding the #flashcard tag makes the entire line glow with a soft, distinct background effect.
+		1. Adding the #flashcard tag makes the entire line with a soft, distinct effect.
 3. If you add "collage" to the cssclasses note property, it enables the cards view for Dataview queries.
 
 ```markdown
