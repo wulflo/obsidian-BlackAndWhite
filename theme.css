@@ -1230,12 +1230,6 @@ body:not(.is-phone) .cm-comment, .cm-meta {
     font-weight: bold;
 }
 
-.markdown-source-view.is-live-preview .cm-line:has(.cm-highlight) {
-    border-left: 4px solid var(--background-highlight);
-    padding-left: 8px;
-    border-radius: 4px;
-}
-
 /* ==========================================================================
    5. CALLOUTS Y BLOQUES MULTICOLUMNA (CALLOUTS & supercallout BLOCKS)
    ========================================================================== */
