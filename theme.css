@@ -1400,10 +1400,6 @@ div[data-callout="supercallout"].callout:not(.is-collapsed) {
    6. TABLAS BASE Y DATAVIEW (BASE TABLES & DATAVIEW)
    ========================================================================== */
 
-.markdown-source-view.mod-cm6 .cm-table-widget table {
-    margin-left: 7%
-}
-
 thead {
     background: var(--background-tertiary);
 }
